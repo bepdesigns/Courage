@@ -9,8 +9,9 @@ public class PlayerController : MonoBehaviour
 	public float jumpForce;
 	public CharacterController controller;
 
+	//private float verticalVelocity;
 
-	private Vector3 moveDirection;
+	public Vector3 moveDirection;
 	public float gravityScale;
 
 	private Animator anim;
@@ -85,5 +86,28 @@ public class PlayerController : MonoBehaviour
 		//direction = new Vector3 (1f, 1f, 1f);
 		moveDirection = direction * knocBackForce;
 		moveDirection.y = knocBackForce;
+	}
+
+	private void OnControllerColliderHit(ControllerColliderHit hit)
+	{
+		if (controller.collisionFlags == CollisionFlags.Sides) 
+		{
+			if (Input.GetKeyDown (KeyCode.Space)) 
+			{
+				moveDirection = hit.normal * moveSpeed;
+				moveDirection.y = jumpForce;
+			
+			}
+		}
+
+		//Collectable
+		switch(hit.gameObject.tag)
+			{
+				case "JumpPad" :
+			moveDirection.y = jumpForce * 4;
+				break;
+				default:
+				break;
+			}
 	}
 }
