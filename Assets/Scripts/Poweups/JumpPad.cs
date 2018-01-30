@@ -4,23 +4,27 @@ using UnityEngine;
 
 public class JumpPad : MonoBehaviour 
 {
-	public float jumpforce = 4;
+	public float power;
+	CharacterMotorC cm;
 
 	// Use this for initialization
-	void Start () {
-		
+	void Awake () 
+	{
+		cm = GameObject.Find ("Player").GetComponent<CharacterMotorC> ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
 	}
-	private void OnCollision(Collider other)
+
+	 void OnTriggerEnter(Collider other)
 	{
-		if (other.tag == "Player") 
+		if (other.gameObject.tag == "Player") 
 		{
-			PlayerController pc = other.gameObject.GetComponent<PlayerController> ();
-			pc.moveDirection.y = jumpforce * 3;
+			//PlayerController pc = other.gameObject.GetComponent<PlayerController> ();
+			cm.movement.velocity.y = 0;
+			cm.movement.velocity = cm.movement.velocity + (transform.up * power);
 
 		}
 	}

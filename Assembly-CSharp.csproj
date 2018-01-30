@@ -74,6 +74,8 @@
      <Compile Include="Assets\Scripts\Particles\ParticleScript.cs" />
      <Compile Include="Assets\Scripts\PickUp\GameManager.cs" />
      <Compile Include="Assets\Scripts\PickUp\GoldPickup.cs" />
+     <Compile Include="Assets\Scripts\Player\CharacterMotorC.cs" />
+     <Compile Include="Assets\Scripts\Player\FPSInputControllerC.cs" />
      <Compile Include="Assets\Scripts\Player\HealthManager.cs" />
      <Compile Include="Assets\Scripts\Player\HUD.cs" />
      <Compile Include="Assets\Scripts\Player\HurtPlayer.cs" />
