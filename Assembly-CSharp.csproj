@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Cleaver Warrior\Test World\Scripts\WaterSimple.cs" />
      <Compile Include="Assets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
      <Compile Include="Assets\Scripts\CameraController\CameraController.cs" />
      <Compile Include="Assets\Scripts\CheckPoint\CheckPoint.cs" />
@@ -123,6 +124,7 @@
      <None Include="Assets\Water Flow FREE\Shaders\Water Flow FREE Simple.shader" />
      <None Include="Assets\Water Flow FREE\Readme.txt" />
      <None Include="Assets\UGUIMiniMap\Content\Documentation\ReadMe.txt" />
+     <None Include="Assets\Cleaver Warrior\Test World\Materials\FX-Water Simple.shader" />
      <None Include="Assets\BrokenVector\FreeLowPolyPack\readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

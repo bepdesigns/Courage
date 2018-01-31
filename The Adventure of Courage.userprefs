@@ -5,12 +5,12 @@
       <File FileName="Assets\Scripts\Player\PlayerController.cs" Line="14" Column="8" />
       <File FileName="Assets\Scripts\CameraController\CameraController.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PickUp\GameManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PickUp\GoldPickup.cs" Line="29" Column="3" />
+      <File FileName="Assets\Scripts\PickUp\GoldPickup.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\HealthManager.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\HurtPlayer.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\CheckPoint\CheckPoint.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\HUD.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Poweups\JumpPad.cs" Line="18" Column="26" />
+      <File FileName="Assets\Scripts\Poweups\JumpPad.cs" Line="24" Column="4" />
       <File FileName="Assets\Scripts\Poweups\SpeedPowerUp.cs" Line="13" Column="66" />
     </Files>
   </MonoDevelop.Ide.Workbench>
