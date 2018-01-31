@@ -115,6 +115,8 @@
      <Compile Include="Assets\UGUIMiniMap\Example\Scripts\bl_CreateItemExample.cs" />
      <Compile Include="Assets\UGUIMiniMap\Example\Scripts\bl_MMExampleManager.cs" />
      <Compile Include="Assets\UGUIMiniMap\Example\Scripts\bl_RandomBot.cs" />
+     <Compile Include="Assets\UGUIMiniMap\Example\Standard Assets\Characters\FirstPersonCharacter\Scripts\bl_FirstPersonController.cs" />
+     <Compile Include="Assets\UGUIMiniMap\Example\Standard Assets\Characters\FirstPersonCharacter\Scripts\bl_MouseLook.cs" />
      <Compile Include="Assets\UGUIMiniMap\Example\Standard Assets\Utility\bl_CurveControlledBob.cs" />
      <Compile Include="Assets\UGUIMiniMap\Example\Standard Assets\Utility\bl_FOVKick.cs" />
      <Compile Include="Assets\UGUIMiniMap\Example\Standard Assets\Utility\bl_LerpControlledBob.cs" />
@@ -126,6 +128,7 @@
      <None Include="Assets\UGUIMiniMap\Content\Documentation\ReadMe.txt" />
      <None Include="Assets\Cleaver Warrior\Test World\Materials\FX-Water Simple.shader" />
      <None Include="Assets\BrokenVector\FreeLowPolyPack\readme.txt" />
+     <None Include="Assets\UGUIMiniMap\Example\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
