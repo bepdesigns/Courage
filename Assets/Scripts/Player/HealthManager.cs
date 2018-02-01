@@ -8,7 +8,8 @@ public class HealthManager : MonoBehaviour
 	public int maxHealth;
 	public int currentHealth;
 
-	public PlayerController thePlayer;
+	//public PlayerController thePlayer;
+	public Character3rdPerson thePlayer;
 
 	public float invncibilityLength;
 	public float invincibilityCounter;
@@ -33,7 +34,8 @@ public class HealthManager : MonoBehaviour
 	void Start () 
 	{
 		currentHealth = maxHealth;
-		thePlayer = FindObjectOfType<PlayerController> ();
+		//thePlayer = FindObjectOfType<PlayerController> ();
+		thePlayer = this.GetComponent<Character3rdPerson> ();
 		respawnPoint = thePlayer.transform.position;
 	}
 	
@@ -88,7 +90,7 @@ public class HealthManager : MonoBehaviour
 			else 
 			{
 
-				thePlayer.Knocback (direction);
+				//thePlayer.Knocback (direction);
 				invincibilityCounter = invncibilityLength;
 
 				playerRenderer.enabled = false;

@@ -9,22 +9,22 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1699696335263710}
+  m_RootGameObject: {fileID: 1659603487112094}
   m_IsPrefabParent: 1
---- !u!1 &1699696335263710
+--- !u!1 &1659603487112094
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4461115353163754}
-  - component: {fileID: 33242245492569022}
-  - component: {fileID: 23632501923598024}
-  - component: {fileID: 95652121825736398}
-  - component: {fileID: 54100032243528454}
-  - component: {fileID: 65488381952703638}
-  - component: {fileID: 114069011461784402}
+  - component: {fileID: 4831619330371274}
+  - component: {fileID: 33543180627726928}
+  - component: {fileID: 23393082034639226}
+  - component: {fileID: 95805771870623854}
+  - component: {fileID: 54862801418604058}
+  - component: {fileID: 65060999876733980}
+  - component: {fileID: 114590432420819148}
   m_Layer: 0
   m_Name: Sword
   m_TagString: Sword
@@ -32,25 +32,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4461115353163754
+--- !u!4 &4831619330371274
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1699696335263710}
+  m_GameObject: {fileID: 1659603487112094}
   m_LocalRotation: {x: -0.06747646, y: -0.9377815, z: -0.30834973, w: 0.14468335}
-  m_LocalPosition: {x: -1.28, y: 73.94, z: -625.3}
+  m_LocalPosition: {x: -9.75, y: 1.96, z: -4.26}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23632501923598024
+--- !u!23 &23393082034639226
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1699696335263710}
+  m_GameObject: {fileID: 1659603487112094}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -79,19 +79,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33242245492569022
+--- !u!33 &33543180627726928
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1699696335263710}
+  m_GameObject: {fileID: 1659603487112094}
   m_Mesh: {fileID: 4300000, guid: 8d0d5757a4c0e3247b9ddaef38b8e596, type: 3}
---- !u!54 &54100032243528454
+--- !u!54 &54862801418604058
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1699696335263710}
+  m_GameObject: {fileID: 1659603487112094}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -101,25 +101,25 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
---- !u!65 &65488381952703638
+--- !u!65 &65060999876733980
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1699696335263710}
+  m_GameObject: {fileID: 1659603487112094}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.24976411, y: 0.054548495, z: 1.6051078}
   m_Center: {x: -0.0066297436, y: -0.00013294024, z: 0.35913295}
---- !u!95 &95652121825736398
+--- !u!95 &95805771870623854
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1699696335263710}
+  m_GameObject: {fileID: 1659603487112094}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 8d0d5757a4c0e3247b9ddaef38b8e596, type: 3}
   m_Controller: {fileID: 0}
@@ -130,12 +130,12 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114069011461784402
+--- !u!114 &114590432420819148
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1699696335263710}
+  m_GameObject: {fileID: 1659603487112094}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d78f9168e0460ec439a0cbd004ac2aaf, type: 3}

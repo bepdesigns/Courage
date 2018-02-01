@@ -51,7 +51,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Cleaver Warrior\Scripts\Character3rdPerson.js" />
      <Compile Include="Assets\Cleaver Warrior\Scripts\CharacterCamera.js" />
      <Compile Include="Assets\Cleaver Warrior\Scripts\CopyAnimation.js" />
      <Compile Include="Assets\Cleaver Warrior\Scripts\Delete Triangles Script\RestoreTriangles.js" />
@@ -157,6 +156,10 @@
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/Lenovo/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.csproj">
+      <Project>{8A95C468-46BC-4B95-E816-F696B8371586}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

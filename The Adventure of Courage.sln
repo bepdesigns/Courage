@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Adventure of Courage", 
 EndProject
 Project("{C6AF6F63-BE2A-A9CB-2567-DFD9D1F1A0F9}") = "The Adventure of Courage", "Assembly-UnityScript.unityproj", "{C8A6A170-669A-CA11-EC7D-5C1B94DAEA8F}"
 EndProject
+Project("{C6AF6F63-BE2A-A9CB-2567-DFD9D1F1A0F9}") = "The Adventure of Courage", "Assembly-UnityScript-firstpass.unityproj", "{8A95C468-46BC-4B95-E816-F696B8371586}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Adventure of Courage", "Assembly-CSharp-Editor.csproj", "{D1DE93CB-7448-AE16-B797-BF58BD3ED6AA}"
 EndProject
 Global
@@ -21,6 +23,10 @@ Global
 		{C8A6A170-669A-CA11-EC7D-5C1B94DAEA8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8A6A170-669A-CA11-EC7D-5C1B94DAEA8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8A6A170-669A-CA11-EC7D-5C1B94DAEA8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A95C468-46BC-4B95-E816-F696B8371586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A95C468-46BC-4B95-E816-F696B8371586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A95C468-46BC-4B95-E816-F696B8371586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A95C468-46BC-4B95-E816-F696B8371586}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D1DE93CB-7448-AE16-B797-BF58BD3ED6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D1DE93CB-7448-AE16-B797-BF58BD3ED6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1DE93CB-7448-AE16-B797-BF58BD3ED6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
