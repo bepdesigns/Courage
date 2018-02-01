@@ -31,7 +31,7 @@ public class HealthManager : MonoBehaviour
 	public float waitForFade;
 
 	// Use this for initialization
-	void Start () 
+	void Awake () 
 	{
 		currentHealth = maxHealth;
 		//thePlayer = FindObjectOfType<PlayerController> ();
@@ -114,7 +114,7 @@ public class HealthManager : MonoBehaviour
 	public IEnumerator Respawner()
 	{
 		IsRespawning = true;
-		thePlayer.gameObject.SetActive (false);
+		thePlayer.gameObject.SetActive (true);
 		Instantiate (deathEffect, thePlayer.transform.position, thePlayer.transform.rotation);
 
 		yield return new WaitForSeconds (respawnLegth);
