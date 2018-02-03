@@ -1,13 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\HealthManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Character3rdPerson.js">
     <Files>
       <File FileName="Assets\Scripts\Player\PlayerController.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PickUp\GameManager.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\HUD.cs" Line="1" Column="1" />
       <File FileName="Assets\Cleaver Warrior\Scripts\CharacterCamera.js" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Character3rdPerson.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\HealthManager.cs" Line="51" Column="3" />
+      <File FileName="Assets\Standard Assets\Character3rdPerson.js" Line="132" Column="41" />
+      <File FileName="Assets\Scripts\Player\HealthManager.cs" Line="66" Column="58" />
+      <File FileName="Assets\Cleaver Warrior\Test World\Scripts\LabelTransform.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

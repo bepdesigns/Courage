@@ -107,9 +107,9 @@ MonoBehaviour:
     width: 1280
     height: 891
   m_MinSize: {x: 683, y: 492}
-  m_MaxSize: {x: 18004, y: 14042}
+  m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 5426
+  controlID: 308
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -131,9 +131,9 @@ MonoBehaviour:
     width: 997
     height: 891
   m_MinSize: {x: 406, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MaxSize: {x: 14006, y: 14042}
   vertical: 1
-  controlID: 5427
+  controlID: 309
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 5428
+  controlID: 310
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -201,8 +201,8 @@ MonoBehaviour:
     y: 0
     width: 701
     height: 503
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -230,10 +230,10 @@ MonoBehaviour:
     y: 503
     width: 997
     height: 388
-  m_MinSize: {x: 332, y: 271}
-  m_MaxSize: {x: 14002, y: 10021}
+  m_MinSize: {x: 336, y: 271}
+  m_MaxSize: {x: 14006, y: 10021}
   vertical: 0
-  controlID: 5513
+  controlID: 238
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -279,8 +279,8 @@ MonoBehaviour:
     y: 0
     width: 504
     height: 388
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 104, y: 121}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -304,8 +304,8 @@ MonoBehaviour:
     y: 0
     width: 283
     height: 891
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -418,24 +418,24 @@ MonoBehaviour:
     height: 482
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 111}
-    m_SelectedIDs: 84510000
-    m_LastClickedID: 20868
-    m_ExpandedIDs: 74cdf3ffdedff3ff3ee9f8ff4cfaffff86fbffff00000000205100004a5100005c510000645100007251000084510000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 96510000
+    m_LastClickedID: 20886
+    m_ExpandedIDs: 9efbffff000000005c510000c8510000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: HealthPanel
-      m_OriginalName: HealthPanel
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 20828
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -477,9 +477,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 81.0852, y: 275.11267, z: -25.931635}
+    m_Target: {x: 239.87204, y: 284.8007, z: 18.49208}
     speed: 2
-    m_Value: {x: 81.0852, y: 275.11267, z: -25.931635}
+    m_Value: {x: 239.87204, y: 284.8007, z: 18.49208}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -505,11 +505,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.04340057, y: -0.1332917, z: 0.0058776597, w: 0.9901122}
     speed: 2
-    m_Value: {x: 0.04340042, y: -0.13329124, z: 0.005877639, w: 0.9901088}
+    m_Value: {x: -0.04340057, y: 0.1332917, z: -0.00587766, w: -0.9901122}
   m_Size:
-    m_Target: 161.37074
+    m_Target: 219.59691
     speed: 2
-    m_Value: 161.37074
+    m_Value: 219.59691
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -681,19 +681,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Texture/PlayerIcon
+    - Assets/Cleaver Warrior/Test World/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Texture/PlayerIcon
+  - Assets/Cleaver Warrior/Test World/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Lenovo\Documents\MyGames\The Adventure of Courage
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 614}
-    m_SelectedIDs: b6280000
-    m_LastClickedID: 10422
-    m_ExpandedIDs: 000000003c280000e42d0000e02e000064300000da30000030330000ca410000a8440000c44400006e490000aa50000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 351}
+    m_SelectedIDs: 662c0000
+    m_LastClickedID: 11366
+    m_ExpandedIDs: 000000002a280000d22d0000ce2e000052300000c83000001e330000b841000096440000b2440000624900009e50000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -721,7 +721,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 36300000
     m_LastClickedID: 12342
-    m_ExpandedIDs: 000000003c280000e42d0000e02e000064300000da30000030330000ca410000a8440000c44400006e490000aa50000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000002a280000d22d0000ce2e000052300000c83000001e330000b841000096440000b2440000624900009e50000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -752,18 +752,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: 0e39ffffac2800007c2800003a5ffeffe41c0000fc0500007805000038350000443500007e390000023e0000ce3d000084590000de040000da3d000098e3000026060000b89afdff5c260000802900000000000032300000ca2b0000d4300000e2350000a6e8000064e80000f6e7000032e800001ee8000016f00100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Triggers
-      m_OriginalName: Triggers
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 274166
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
