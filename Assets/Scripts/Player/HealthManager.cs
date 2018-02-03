@@ -7,9 +7,14 @@ public class HealthManager : MonoBehaviour
 {
 	public int maxHealth;
 	public int currentHealth;
+	public Image healthBar;
+	public Text ratioText;
+	public Image cooldown;
 
 	//public PlayerController thePlayer;
-	public Character3rdPerson thePlayer;
+	public Character3rdPerson Player;
+	public GameObject thePlayer;
+	public Renderer swordRend;
 
 	public float invncibilityLength;
 	public float invincibilityCounter;
@@ -31,17 +36,24 @@ public class HealthManager : MonoBehaviour
 	public float waitForFade;
 
 	// Use this for initialization
-	void Awake () 
+	void Start () 
 	{
+		
 		currentHealth = maxHealth;
 		//thePlayer = FindObjectOfType<PlayerController> ();
-		thePlayer = this.GetComponent<Character3rdPerson> ();
+		Player = thePlayer.GetComponent<Character3rdPerson> ();
 		respawnPoint = thePlayer.transform.position;
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
+		float ratio = currentHealth / 100f;
+		healthBar.fillAmount = currentHealth /100f;
+		ratioText.text = (ratio * 100).ToString("0");
+
+
+
 		if (invincibilityCounter > 0) 
 		{
 			invincibilityCounter -= Time.deltaTime;
@@ -51,11 +63,13 @@ public class HealthManager : MonoBehaviour
 			{
 				playerRenderer.enabled = !playerRenderer.enabled;
 				flashCounter = flashLength;
+				cooldown.color =  Color.Lerp(Color.white, Color.green, Mathf.PingPong(Time.time, 1));
 			}
 
 			if (invincibilityCounter <= 0) 
 			{
 				playerRenderer.enabled = true;
+				cooldown.color =  Color.yellow;
 			}
 		}
 
@@ -79,9 +93,12 @@ public class HealthManager : MonoBehaviour
 	}
 	public void HurtPlayer(int damage, Vector3 direction)
 	{
+		
 		if (invincibilityCounter <= 0) 
 		{
+			
 			currentHealth -= damage;
+			//healthBar.fillAmount = currentHealth / maxHealth;
 
 			if (currentHealth <= 0) 
 			{
@@ -115,6 +132,8 @@ public class HealthManager : MonoBehaviour
 	{
 		IsRespawning = true;
 		thePlayer.gameObject.SetActive (true);
+		playerRenderer.enabled = false;
+		swordRend.enabled = false;
 		Instantiate (deathEffect, thePlayer.transform.position, thePlayer.transform.rotation);
 
 		yield return new WaitForSeconds (respawnLegth);
@@ -133,6 +152,7 @@ public class HealthManager : MonoBehaviour
 		currentHealth = maxHealth;
 
 		invincibilityCounter = invncibilityLength; 
+		swordRend.enabled = true;
 		playerRenderer.enabled = false;
 		flashCounter = flashLength;	
 
@@ -152,4 +172,6 @@ public class HealthManager : MonoBehaviour
 	{
 		respawnPoint = newPosition;
 	}
+
+
 }

@@ -39,7 +39,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1659603487112094}
   m_LocalRotation: {x: -0.06747646, y: -0.9377815, z: -0.30834973, w: 0.14468335}
-  m_LocalPosition: {x: -9.75, y: 1.96, z: -4.26}
+  m_LocalPosition: {x: 64.49, y: 2, z: 37.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -143,5 +143,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   relativeCamera: {fileID: 0}
   offsetWorld: {x: 0, y: 0, z: 0}
-  offsetScreen: {x: -100, y: 0}
-  text: Left click near sword to pick up.
+  offsetScreen: {x: 0, y: 0}
+  text: 

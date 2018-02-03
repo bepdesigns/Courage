@@ -1191,7 +1191,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1709260139887648}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 64.7, y: 11.4, z: 31.9}
+  m_LocalPosition: {x: 64.7, y: -0.73, z: 31.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4113752914093562}
@@ -1644,7 +1644,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 5
   currentHealth: 0
-  thePlayer: {fileID: 114549719601177076}
+  Player: {fileID: 114549719601177076}
+  thePlayer: {fileID: 1709260139887648}
+  swordRend: {fileID: 0}
   invncibilityLength: 5
   invincibilityCounter: 0
   playerRenderer: {fileID: 137334202637032670}
@@ -1734,6 +1736,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
+  - {fileID: 2100000, guid: 258ff10bdc273224380b89411131ef47, type: 2}
   - {fileID: 2100000, guid: 4b084cafbf3ce6540916c083af068e78, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
