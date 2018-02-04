@@ -64,6 +64,7 @@ public class HealthManager : MonoBehaviour
 				playerRenderer.enabled = !playerRenderer.enabled;
 				flashCounter = flashLength;
 				cooldown.color =  Color.Lerp(Color.white, Color.green, Mathf.PingPong(Time.time, 1));
+
 			}
 
 			if (invincibilityCounter <= 0) 
